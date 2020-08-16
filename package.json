@@ -1,0 +1,25 @@
+{
+  "name": "rollup-with-typescript",
+  "version": "1.0.0",
+  "description": "Sample rollup lib working with typescript plugin",
+  "main": "output/bundle.cjs.js",
+  "module": "output/bundle.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup --watch -c"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^5.0.2",
+    "rollup": "2.23.1",
+    "tslib": "^2.0.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/underscore": "^1.10.19",
+    "underscore": "^1.10.2"
+  }
+}
